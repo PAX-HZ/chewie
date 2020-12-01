@@ -11,7 +11,11 @@ dependencies:
   cupertino_icons: ^1.0.0
   flutter:
     sdk: flutter
-  video_player: ^1.0.0
+  video_player:
+    git:
+      url: https://github.com/PAX-HZ/plugins.git
+      ref: caching
+      path: packages/video_player/video_player/
   wakelock: ^0.2.1+1
 
 dev_dependencies:
